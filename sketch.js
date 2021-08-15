@@ -17,7 +17,6 @@ function setup() {
   balloon.scale=0.5;
 
   var balloonPos = database.ref('balloon/position');
-  balloonPos.on("value",readPos);
 }
 
 function draw() {
